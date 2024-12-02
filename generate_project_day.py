@@ -11,7 +11,7 @@ def _create_python_file(folder_name: str, file_name: str):
     py_file = os.path.join(folder_name, file_name)
     with open(py_file, 'w') as f:
         f.write(
-            f"""def main():\n    pass\n\nif __name__ == "__main__":\n    main()\n"""
+            f"""def part_1():\n    pass\n\ndef part_2():\n    pass\n\nif __name__ == "__main__":\n    part_1()\n    # part_2()\n"""
         )
 
 def create_project_folder(day):

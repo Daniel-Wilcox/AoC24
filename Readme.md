@@ -15,11 +15,14 @@ where the "day_X.py" contains a basic initial script:
 
 ```python 
 #Day_X/day_X.py
-def main():
+def part_1():
+    pass
+def part_2():
     pass
 
 if __name__ == "__main__":
-    main()
+    part_1()
+    # part_2()
 ```
 
 To run this from the CLI, one can use the following command:

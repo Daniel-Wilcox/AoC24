@@ -15,7 +15,7 @@ def part_1():
     combined_df["diff"] = abs(combined_df["left_id"] - combined_df["right_id"])
 
     print(combined_df.head())
-    print(combined_df["diff"].sum())
+    print(combined_df["diff"].sum()) #1258579
     
 
 def part_2():
@@ -43,4 +43,5 @@ def part_2():
     pass
 
 if __name__ == "__main__":
+    part_1()
     part_2()
